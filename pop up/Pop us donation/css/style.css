@@ -1,0 +1,264 @@
+@import "./normalize.css";
+
+.donations {
+    margin: 0 auto;
+    width: 920px;
+    height: 820px;
+}
+
+.donations__container{
+    width: 670px;
+    margin: 0 120px; 
+}   
+
+.donations__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 920px;
+    height: 135px;
+    background-color: #F58021;
+}
+
+.donations__title h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.donations__info {
+    width: 100%;
+    height: 87px;
+    border-bottom: 1px solid #A4A8AE;
+}
+
+.donations__info h2 {
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.donations__choisedonate {
+    width: 600px;
+    height: 380px;
+    margin: 40px auto 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.donations__choisedonate span {
+    
+    color: #00A092;
+}
+
+.donations__choisedonate h2 {
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.choisedonate__money {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.choisedonate__money button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 65px;
+    background: rgba(0, 160, 146, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 40px;
+}
+
+.choisedonate__money button:hover {
+    background: #05786E;
+}
+
+
+.choisedonate__form {
+
+}
+
+.form__container__typetext {
+    display: flex;
+}
+
+
+.form__button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 65px;
+    background: #00A092; 
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form__button1:hover {
+    background: rgba(0, 160, 146, 0.5);
+}
+
+
+.form__inputtext {
+    margin-left: 40px;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+    text-transform: capitalize;
+}
+
+.form__container-select {
+    display: flex;
+}
+
+.form__button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 65px;
+    background: rgba(0, 160, 146, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form__button2:hover {
+    background: #00A092; 
+}
+
+.form__select {
+    margin-left: 40px;
+    width: 440px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+}
+
+.form__select-firstoption {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A4A8AE;
+}
+
+.form__checkbox {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#form__checkbox-span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+    margin-left: 20px;
+}
+
+.donations__next {
+    margin-top: 50px;
+
+}
+
+.donations__next button {
+    margin-left: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 74px;
+    background: #00A092;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.donations__next button img {
+    padding-left: 10px;
+}
+
+.donations__next button:hover {
+    background: rgba(0, 160, 146, 0.5);
+}
+
+.donations__next{
+    display: flex;
+}
+
+.next__tripledot {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.next__tripledot-first {
+    width: 10px;
+    height: 10px;
+    background: #00A092;
+    border: 1px solid #00A092;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.next__tripledot-second {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #00A092;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.next__tripledot-third {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #00A092;
+    border-radius: 50%;
+}

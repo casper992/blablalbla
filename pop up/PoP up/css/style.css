@@ -1,0 +1,102 @@
+@import "./normalize.css";
+
+.saveprotect {
+    margin: 0 auto;
+    width: 1160px;
+    height: 815px;
+    background: white;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.saveprotect__background {
+    background-image: url(../assets/1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 387px;
+}
+
+.saveprotect__background-exit {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.saveprotect__background-exit img {
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+.saveprotect__title {
+    margin: 20px auto 0;
+    width: 678px;
+    height: 132px;
+}
+
+.saveprotect__title h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F58021;
+}
+
+.saveprotect__text {
+    width: 570px;
+    height: 81px;
+    margin: 30px auto 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    text-align: center;
+}
+
+.saveprotect__donation {
+    width: 100%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.saveprotect__donation button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 65px;
+    background: #00A092;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 40px;
+}
+
+.saveprotect__donation button:hover {
+    background: #05786E;
+}
+
+.saveprotect__donation .lastchild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 65px;
+    background: #00A092;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+}

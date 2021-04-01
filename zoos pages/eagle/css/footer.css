@@ -1,0 +1,119 @@
+.footer__container {
+    width: 100%;
+    height: 329px;
+    background-color: #20113D;
+    padding: 0 260px;
+}
+
+.overline {
+    padding-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.overline__logo {
+    display: flex;
+    padding-top: 11px;
+
+}
+
+.overline__logo-zoo {
+    padding-right: 65px;
+}
+
+.overline__logo-m {
+    padding-right: 65px;
+}
+
+.overline__logo-rss {
+    padding-right: 100px;
+}
+
+.overline__menu {
+    padding-top: 21px;
+}
+
+.overline__menu-ul {
+    display: flex;
+}
+
+.overline__menu-li {
+    padding-right: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    
+}
+
+.overline__menu-li a{
+    color: white;
+}
+
+.overline__menu-button {
+    margin-left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+    height: 74px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+}
+
+.overline__menu-button img{
+    padding-left: 10px;
+}
+
+.footer__container-line {
+    margin-top: 70px;
+    border-bottom: 1px solid white;
+}
+
+
+.underline {
+    width: 100%;
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.underline__text {
+    display: flex;
+
+}
+
+.underline__text ul {
+    display: flex;
+}
+
+.underline__text-li {
+    padding-right: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+}
+
+
+.underline__social {
+    width: 200px;
+}
+
+.underline__social-ul {
+    display: flex;
+}
+
+.underline__social-li {
+    padding-right: 40px;
+}
