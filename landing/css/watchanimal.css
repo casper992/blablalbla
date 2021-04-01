@@ -1,0 +1,224 @@
+
+.watchanimal {
+    height: 790px;
+    width: 100%;
+    background-image: url(../assets/watch/Background1.png);
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.watchanimal__container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.watchanimal__container-title {
+    max-width: 890px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 82px;
+    line-height: 100px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #00A092;
+    padding-top: 129px;
+}
+
+.watchanimal__container-text {
+    width: 360px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+    margin: 50px 0px;
+}
+
+.watchanimal__container button{
+    width: 240px;
+    height: 74px;
+    background-color: #F58021;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchanimal__container button:hover {
+    background-color: #D26004;
+}
+
+
+.watchanimal__container button img{
+    padding-left: 10px;
+}
+
+.welcome {
+    width: 100%;
+    height: 1730px;
+    
+}
+
+.welcome__container {
+    width: 1400px;
+    margin: 150px auto 0;
+}
+
+.welcome__container-first {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container__first-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+}
+
+.left__text {
+    width: 460px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    padding-top: 50px;
+}
+
+.container__first-right {
+
+}
+
+.welcome__container-second {
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container__second-left {
+}
+
+.container__second-right {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second__right-title {
+    padding-top: 113px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+}
+
+.second__right-text {
+    width: 500px;
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+}
+
+.donation{
+    width: 100%;
+    height: 221px;
+    margin-top: 150px;
+    background-color: #20113D;
+}
+
+.donation__container {
+    
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex: 50%;
+}
+
+.donation__container-left {
+    
+}
+
+.container__left-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: white;
+    padding: 50px 0px 20px 0px;
+}
+
+.container__left-text {
+    width: 600px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+}
+
+.donation__container-right {
+    padding: 50px 0px 10px 191px;
+}
+
+.container__right-title {
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+    color: white;
+}
+
+.donation__container-right button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 320px;
+    height: 74px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.donation__button-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80px;
+    height: 73px;
+    color: red;
+    background-color: #F58021;
+    padding-right: 30px; 
+    border-radius: 5px;
+}
+
+.donation__button-img:hover {
+    background-color: #D26004;
+}

@@ -1,0 +1,173 @@
+.careanimals{
+    width: 100%;
+    height: 2965px;
+    background: #FFFFFF;
+} 
+
+.careanimals__container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.careanimals__uppercontainer h3{
+    padding-top: 136px;
+    width: 655px;
+    height: 132px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+    margin: 0 auto;
+}
+
+.careanimals__uppercontainer-text {
+    padding-top: 200px;
+    width: 537px;
+    height: 65px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    color: #20113D;
+    margin: 0 auto;
+}
+
+.careanimals__container-album {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    width: 1400px;
+    height: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album__pfoto-first {
+    padding-right: 40px;
+}
+
+.album__pfoto-second,
+.album__pfoto-third,
+.album__pfoto-for,
+.album__pfoto-five {
+    width: 440px;
+    height: 658px;
+    background: #20113D;
+    border-radius: 5px;
+}
+
+.album__pfoto-third,
+.album__pfoto-for{
+    margin-right: 40px;
+}
+
+
+.second__text,
+.for__text,
+.five__text {
+    margin: 30px auto 50px;
+    width: 390px;
+    height: 81px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.third__text {  
+    margin: 30px auto 77px;
+    width: 390px;
+    height: 54px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.album__pfoto-button {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 142px;
+    height: 74px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #F58021;
+}
+
+.album__pfoto-button img {
+    padding-left: 10px;
+}
+
+
+.careanimals__container-button {
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+    height: 74px;
+    border: 1px solid #20113D;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #20113D;
+}
+
+.careanimals__container-button:hover {
+    background-color: #20113D;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.careanimals__container-button span {
+    margin-left: 10px;
+    width: 24px;
+    height: 22px;
+    display: inline-block;
+    background-image: url(..//assets/arrow-purple.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.careanimals__container-button span:hover {
+    margin-left: 10px;
+    width: 24px;
+    height: 22px;
+    display: inline-block;
+    background-image: url(..//assets/arrow-white.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.careanimals__lastimage{
+    width: 100%;
+    margin: 150px auto 0;
+}
+
+.careanimals__lastimage img {
+    padding: 0 250px;
+}

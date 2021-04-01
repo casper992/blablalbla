@@ -1,0 +1,16 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./watchanimal.css";
+@import "./somepets.css";
+@import "./payandfeed.css";
+@import "./whatauserthings.css";
+@import "./careanimals.css";
+@import "./footer.css";
+
+body{
+    max-width: 1920px;
+    max-height: 100%;
+    color: white;
+    font-family: "Montserrat" sans-serif;
+    margin: 0 auto;
+}
