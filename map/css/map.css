@@ -1,0 +1,89 @@
+.map {
+    height: 1310px;
+    width: 100%;
+}
+
+.map__container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map__container-text {
+    width: 601px;
+    height: 131px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.map__container-text h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #20113D;
+}
+
+.map__container-onlinemap {
+    padding-top: 100px;
+    width: 1406px;
+    height: 912px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.onlinemap__animals1 {
+    position: absolute;
+    left: 134px;
+    top: 469px;
+}
+
+.onlinemap__animals1:hover {
+    position: absolute;
+    left: 134px;
+    top: 469px;
+    background-image: url();
+}
+
+.onlinemap__animals2 {
+    position: absolute;
+    left: 271px;
+    top: 493px;
+}
+
+.onlinemap__animals3 {
+    position: absolute;
+    left: 553px;
+    top: 538px;
+}
+
+.onlinemap__animals4 {
+    position: absolute;
+    left: 668px;
+    top: 563px;
+}
+
+.onlinemap__animals5 {
+    position: absolute;
+    left: 774px;
+    top: 680px;
+}
+
+.onlinemap__animals6 {
+    position: absolute;
+    left: 934px;
+    top: 435px;
+}
+
+.onlinemap__animals7 {
+    position: absolute;
+    left: 990px;
+    top: 588px;
+}
+
+.onlinemap__animals8 {
+    position: absolute;
+    left: 1123px;
+    top: 700px;
+}

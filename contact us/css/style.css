@@ -1,0 +1,142 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./footer.css";
+
+
+body{
+    width: 100%;
+    font-family: "Montserrat" sans-serif;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.contact {
+    max-width: 1920px;
+    height: 1875px;
+    background-color: white;
+}
+
+.contact__container {
+    width: 100%;
+    padding: 0 260px;
+}
+
+.container__img {
+}
+
+.contact__maincontainer{
+    display: flex;
+    flex: 50%;
+    margin-top: 150px;
+}
+
+.container__left {
+
+}
+
+.container__left-title {
+    width: 405px;
+    height: 66px;
+}
+
+.container__left-title h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+}
+
+.container__left-text {
+    margin-top: 50px;
+    width: 545px;
+    height: 162px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.container__right {
+    margin-left: 175px;
+}
+
+.container__right-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    margin-bottom: 10px;
+    width: 680px;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: capitalize;
+    font-family: "Montserrat" sans-serif;
+}
+
+.form__label span {
+    font-weight: normal;
+    color: #00A092;
+    padding-right: 5px;
+}
+
+
+.form__text {
+    padding-left: 20px;
+    width: 680px;
+    height: 60px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #969696;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.form__textarea {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width: 680px;
+    height: 200px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A4A8AE;
+}
+
+
+.container__right-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+    height: 74px;
+    background-color: #00A092;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container__right-form button:hover {
+    background-color: #05786E;
+}
+
+
+.container__right-form button img {
+    padding-left: 10px;
+}
